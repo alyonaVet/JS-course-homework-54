@@ -1,4 +1,4 @@
-import Cell from '../Cell/Cell.tsx';
+import Cell from './Cell/Cell.tsx';
 import React from 'react';
 import './Board.css';
 import {BoardCell} from '../../types.ts';
