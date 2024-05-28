@@ -1,0 +1,9 @@
+.Board {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 276px;
+  border: 2px solid grey;
+  padding: 20px;
+  margin-bottom: 20px;
+}
