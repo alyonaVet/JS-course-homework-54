@@ -15,7 +15,7 @@ const Cell: React.FC<Props> = ({clicked, toggleCell, hasItem}) => {
 
   return (
     <div onClick={toggleCell} className={cellClasses.join(' ')}>
-      {clicked && hasItem ? 'O' : ''}
+      {clicked && hasItem ? '💰' : ''}
     </div>
   );
 };
